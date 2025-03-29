@@ -4,6 +4,7 @@ This repository is a collection of all my projects, exercises, and experiments a
 # 📖 About the Challenge
 
 The 100 Days of Code challenge is designed to encourage daily coding practice for 100 consecutive days. Each day, I work on a new concept, project, or improvement to solidify my skills.
+https://www.udemy.com/course/100-days-of-code
 
 📅 Start Date: [Feburary 27th, 2025]
 
