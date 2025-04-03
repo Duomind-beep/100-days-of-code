@@ -18,7 +18,7 @@ def random_color():
 
 # turtle continuously turns left, drawing a circle until completing 360 degrees, changes colors
 for _ in range(36):
-    timmy.circle(60)
+    timmy.circle(100)
     timmy.left(10)
     timmy.color(random_color())
 
