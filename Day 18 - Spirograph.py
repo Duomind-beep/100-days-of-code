@@ -1,9 +1,8 @@
 import turtle
-from turtle import Turtle, Screen
 from random import randint
 
 # object attributes
-timmy = Turtle()
+timmy = turtle.Turtle()
 timmy.shape("classic")
 timmy.color("teal")
 timmy.speed("fastest")
@@ -24,5 +23,5 @@ for _ in range(36):
     timmy.color(random_color())
 
 # screen
-screen = Screen()
+screen = turtle.Screen()
 screen.exitonclick()
