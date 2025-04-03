@@ -20,16 +20,12 @@ def turning():
     else:
         timmy.left(90)
 
-
 # random walk loop
 for _ in range(100):
     paces = randint(1, 90)
     timmy.forward(paces)
     turning()
     timmy.color(choice(color_bank))
-
-
-
 
 # screen
 screen = Screen()
