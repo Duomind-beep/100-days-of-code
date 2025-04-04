@@ -1,5 +1,4 @@
 import colorgram
-import turtle
 from random import choice
 
 
