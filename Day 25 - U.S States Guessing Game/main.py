@@ -15,7 +15,6 @@ turtle.hideturtle()
 turtle.penup()
 
 states_correct = []
-states_to_learn = states_data.state.to_list()
 
 while len(states_correct) < 50:
     if len(states_correct) == 0:
@@ -24,6 +23,8 @@ while len(states_correct) < 50:
         answer_state = screen.textinput(title=f'{len(states_correct)}/50 States Correct',
         prompt="What's another State's Name?").title()
     if answer_state == "Exit".title():
+        missing_states =[state for state in states_data.state if state not in states_correct]
+        pandas.DataFrame(missing_states).to_csv('States to Learn.csv')
         break
     for state in states_data.state:
         if state == answer_state and state not in states_correct:
@@ -33,10 +34,5 @@ while len(states_correct) < 50:
                     turtle.goto(int(state_xcor.iloc[0]),int(state_ycor.iloc[0]))
                     turtle.write(arg=state)
                     states_correct.append(answer_state)
-                    try:
-                        states_to_learn.remove(answer_state)
-                    except ValueError:
-                        pass
-
-pandas.DataFrame(states_to_learn).to_csv('States to Learn.csv')
+            
 screen.mainloop()
