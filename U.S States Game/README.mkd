@@ -1,0 +1,22 @@
+# U.S. States Guessing Game 🗺️
+
+This is a simple Python game that helps you learn all 50 U.S. states by testing your recall and spelling.
+
+## How It Works
+
+- A blank map of the United States is displayed.
+- You're prompted to guess the name of a state.
+- If your guess is **correctly spelled** and **valid**, the state's name appears on the map near its location.
+- You can keep guessing until you've named all 50 states or choose to end the game early.
+
+## Ending the Game
+
+- To end the game at any time, type `"exit"`.
+- A `.csv` file will be automatically created containing the list of states you missed.
+- Use the file to study and improve for next time!
+
+## Requirements
+
+- Python
+- Turtle module (built-in)
+- Pandas
