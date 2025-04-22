@@ -1,0 +1,21 @@
+# Miles to Kilometers Converter
+
+This is a beginner GUI program that converts miles to kilometers using a simple interface built with **Tkinter**.
+
+### What I Practiced
+- Introduction to **GUI programming** in Python
+- Using **Tkinter** to create windows, labels, buttons, and input fields
+- Handling user input and basic calculations
+
+###  How It Works
+1. The user enters a value in miles.
+2. Clicks the "Calculate" button.
+3. The program displays the equivalent distance in kilometers.
+
+This was my first step into building interactive programs with a graphical interface
+
+---
+
+Example:  
+Input: 5 miles
+Output: 8.05 kilometers
