@@ -1,0 +1,19 @@
+# NATO Alphabet Project
+
+This simple Python program converts any user-input word or string into its NATO phonetic alphabet equivalent. For example, the word "cat" becomes `Charlie Alpha Tango`.
+
+### What I Practiced
+- **List Comprehension**
+- **Dictionary Comprehension**
+- **Conditional Comprehensions** (both list and dictionary)
+
+###  How It Works
+1. The user enters a word or string.
+2. The program looks up each letter in a NATO phonetic alphabet dictionary.
+3. It returns a list of code words representing each letter.
+
+---
+
+Example:
+Input: hello
+Output: ['Hotel', 'Echo', 'Lima', 'Lima', 'Oscar']
